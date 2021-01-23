@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16074A5B-5C4C-48E0-B739-73A13DF3A6C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TravelAgency</RootNamespace>
+    <AssemblyName>TravelAgency</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bus1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySqlConnector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlConnector.1.2.1\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.0\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DataAccess\DataFactory.cs" />
+    <Compile Include="Data\DataAccess\Exceptions\DataAccessExceptions.cs" />
+    <Compile Include="Data\DataAccess\IAccount.cs" />
+    <Compile Include="Data\DataAccess\IAddress.cs" />
+    <Compile Include="Data\DataAccess\ICity.cs" />
+    <Compile Include="Data\DataAccess\IEmployee.cs" />
+    <Compile Include="Data\DataAccess\IOffer.cs" />
+    <Compile Include="Data\DataAccess\IOffice.cs" />
+    <Compile Include="Data\DataAccess\IPrice.cs" />
+    <Compile Include="Data\DataAccess\ITraveller.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlAccount.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlDataFactory.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlUtil.cs" />
+    <Compile Include="Data\Model\Account.cs" />
+    <Compile Include="Data\Model\Address.cs" />
+    <Compile Include="Data\Model\City.cs" />
+    <Compile Include="Data\Model\Employee.cs" />
+    <Compile Include="Data\Model\Offer.cs" />
+    <Compile Include="Data\Model\Office.cs" />
+    <Compile Include="Data\Model\Price.cs" />
+    <Compile Include="Data\Model\Traveller.cs" />
+    <Compile Include="Forms\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CommercialistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CommercialistForm.Designer.cs">
+      <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewLoginForm.Designer.cs">
+      <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Common.cs" />
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommercialistForm.resx">
+      <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLoginForm.resx">
+      <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-2246476.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FreeVector-Bus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beckgroundPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enterijer2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enterijer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travelBus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pppp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbbb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1234.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaaaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passwordIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profileIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4224.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoooo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bus1.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
