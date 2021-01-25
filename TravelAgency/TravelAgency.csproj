@@ -84,9 +84,13 @@
     <Compile Include="Data\DataAccess\IOffice.cs" />
     <Compile Include="Data\DataAccess\IPrice.cs" />
     <Compile Include="Data\DataAccess\ITraveller.cs" />
+    <Compile Include="Data\DataAccess\ITrip.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlAccount.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlDataFactory.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlOffer.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlTrip.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlUtil.cs" />
+    <Compile Include="Data\DataAccess\ITravel.cs" />
     <Compile Include="Data\Model\Account.cs" />
     <Compile Include="Data\Model\Address.cs" />
     <Compile Include="Data\Model\City.cs" />
@@ -94,7 +98,9 @@
     <Compile Include="Data\Model\Offer.cs" />
     <Compile Include="Data\Model\Office.cs" />
     <Compile Include="Data\Model\Price.cs" />
+    <Compile Include="Data\Model\Travel.cs" />
     <Compile Include="Data\Model\Traveller.cs" />
+    <Compile Include="Data\Model\Trip.cs" />
     <Compile Include="Forms\AboutBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,12 +127,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
     <Compile Include="Util\Common.cs" />
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CommercialistForm.resx">
       <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewLoginForm.resx">
       <DependentUpon>NewLoginForm.cs</DependentUpon>
@@ -141,6 +155,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -241,6 +259,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bus1.ico" />
+    <None Include="Resources\close %281%29.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\maximize.png" />
+    <None Include="Resources\max.png" />
+    <None Include="Resources\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

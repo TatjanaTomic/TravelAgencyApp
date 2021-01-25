@@ -18,7 +18,8 @@ namespace TravelAgency
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new NewLoginForm());
-            Application.Run(new CommercialistForm());
+            //Application.Run(new CommercialistForm());
+            Application.Run(new ManagerForm());
         }
     }
 }

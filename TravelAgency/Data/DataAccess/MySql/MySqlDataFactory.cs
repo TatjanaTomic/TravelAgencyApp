@@ -9,6 +9,9 @@ namespace TravelAgency.Data.DataAccess.MySql
     public class MySqlDataFactory : DataFactory
     {
         private MySqlAccount mySqlAccount;
+        private MySqlOffer mySqlOffer;
+        private MySqlTrip mySqlTrip;
+
         public override IAccount Accounts
         {
             get
@@ -30,5 +33,30 @@ namespace TravelAgency.Data.DataAccess.MySql
         public override IOffice Offices => throw new NotImplementedException();
 
         public override ITraveller Travellers => throw new NotImplementedException();
+
+        public override IOffer Offers
+          {
+            get
+            {
+                if(mySqlOffer == null)
+                {
+                    mySqlOffer = new MySqlOffer();
+                }
+                return mySqlOffer;
+            }
+        }
+        public override IPrice Prices => throw new NotImplementedException();
+
+        public override ITrip Trips
+        {
+            get
+            {
+                if (mySqlTrip == null)
+                {
+                    mySqlTrip = new MySqlTrip();
+                }
+                return mySqlTrip;
+            }
+        }
     }
 }

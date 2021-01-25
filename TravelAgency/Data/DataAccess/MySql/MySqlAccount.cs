@@ -67,7 +67,6 @@ namespace TravelAgency.Data.DataAccess.MySql
 
             MySqlConnection conn = null;
             MySqlCommand cmd;
-            MySqlDataReader reader = null;
             try
             {
                 conn = MySqlUtil.GetConnection();
@@ -89,7 +88,7 @@ namespace TravelAgency.Data.DataAccess.MySql
                 }
                 finally
                 {
-                    MySqlUtil.CloseQuietly(reader, conn);
+                    MySqlUtil.CloseQuietly(conn);
                 }
             return result;
             

@@ -14,6 +14,9 @@ namespace TravelAgency.Data.DataAccess
         public abstract IEmployee Employees { get; }
         public abstract IOffice Offices { get; }
         public abstract ITraveller Travellers { get; }
+        public abstract IOffer Offers { get; }
+        public abstract IPrice Prices { get; } 
+        public abstract ITrip Trips { get; }
 
         public static DataFactory GetMySqlDataFactory()
         {

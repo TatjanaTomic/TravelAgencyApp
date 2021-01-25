@@ -7,8 +7,8 @@ using TravelAgency.Data.Model;
 
 namespace TravelAgency.Data.DataAccess
 {
-    public interface IPrice
+    public interface ITrip
     {
-        List<Price> GetPrices();
+        List<Trip> GetTrips();
     }
 }
