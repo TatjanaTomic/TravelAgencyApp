@@ -11,6 +11,11 @@ namespace TravelAgency.Data.DataAccess.MySql
         private MySqlAccount mySqlAccount;
         private MySqlOffer mySqlOffer;
         private MySqlTrip mySqlTrip;
+        private MySqlTravel mySqlTravel;
+        private MySqlTraveller mySqlTraveller;
+        private MySqlReservation mySqlReservation;
+        private MySqlBus mySqlBus;
+        private MySqlReceipt mySqlReceipt;
 
         public override IAccount Accounts
         {
@@ -23,19 +28,32 @@ namespace TravelAgency.Data.DataAccess.MySql
                 return mySqlAccount;
             }
         }
+        public override IReceipt Receipts
+        {
+            get
+            {
+                if(mySqlReceipt == null)
+                {
+                    mySqlReceipt = new MySqlReceipt();
+                }
+                return mySqlReceipt;
+            }
+        }
 
-        public override IAddress Addresses => throw new NotImplementedException();
-
-        public override ICity Cities => throw new NotImplementedException();
-
-        public override IEmployee Employees => throw new NotImplementedException();
-
-        public override IOffice Offices => throw new NotImplementedException();
-
-        public override ITraveller Travellers => throw new NotImplementedException();
+        public override ITraveller Travellers
+        {
+            get
+            {
+                if (mySqlTraveller == null)
+                {
+                    mySqlTraveller = new MySqlTraveller();
+                }
+                return mySqlTraveller;
+            }
+        }
 
         public override IOffer Offers
-          {
+        {
             get
             {
                 if(mySqlOffer == null)
@@ -45,7 +63,6 @@ namespace TravelAgency.Data.DataAccess.MySql
                 return mySqlOffer;
             }
         }
-        public override IPrice Prices => throw new NotImplementedException();
 
         public override ITrip Trips
         {
@@ -56,6 +73,42 @@ namespace TravelAgency.Data.DataAccess.MySql
                     mySqlTrip = new MySqlTrip();
                 }
                 return mySqlTrip;
+            }
+        }
+
+        public override ITravel Travels
+        {
+            get
+            {
+                if (mySqlTravel == null)
+                {
+                    mySqlTravel = new MySqlTravel();
+                }
+                return mySqlTravel;
+            }
+        }
+
+        public override IReservation Reservations
+        {
+            get
+            {
+                if (mySqlReservation == null)
+                {
+                    mySqlReservation = new MySqlReservation();
+                }
+                return mySqlReservation;
+            }
+        }
+
+        public override IBus Buses
+        {
+            get
+            {
+                if (mySqlBus == null)
+                {
+                    mySqlBus = new MySqlBus();
+                }
+                return mySqlBus;
             }
         }
     }

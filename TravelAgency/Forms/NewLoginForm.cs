@@ -7,21 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Resources;
+using System.Threading;
 
 namespace TravelAgency.Forms
 {
     public partial class NewLoginForm : Form
     {
-        public NewLoginForm()
+        readonly CultureInfo culture;
+        ResourceManager rm;
+
+        public NewLoginForm(CultureInfo culture)
         {
+            this.culture = culture;
+            setCulture();
+
             InitializeComponent();
+        }
+
+        private void setCulture()
+        {
+            Thread.CurrentThread.CurrentCulture = culture;
+            Thread.CurrentThread.CurrentUICulture = culture;
+            rm = new ResourceManager("TravelAgency.Resources.Strings", System.Reflection.Assembly.GetExecutingAssembly());
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
 
         private void btnMinimize_Click(object sender, EventArgs e)
         {
@@ -41,55 +56,48 @@ namespace TravelAgency.Forms
 
                     if (result.Equals("1"))
                     {
-                        new ManagerForm().ShowDialog();
+                        Data.Model.Account currentUser = Util.Common.DataFactory.Accounts.GetAccountByUsername(_username);
+                        new ManagerForm(currentUser, Thread.CurrentThread.CurrentCulture).ShowDialog();
                     }
                     else if (result.Equals("2"))
                     {
-                        new CommercialistForm().ShowDialog();
+                        Data.Model.Account currentUser = Util.Common.DataFactory.Accounts.GetAccountByUsername(_username);
+                        new CommercialistForm(currentUser, Thread.CurrentThread.CurrentCulture).ShowDialog();
                     }
                     else
                     {
-                        MessageBox.Show("Pogresni podaci za pristup sistemu!", "Neuspjesna prijava", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show(rm.GetString("WrongLoginData"), rm.GetString("FailedLogin"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
-                    ClearTextBoxes();
                 }
                 catch (Exception ex)
                 {
-                    ClearTextBoxes();
-                    MessageBox.Show(ex.Message, "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, rm.GetString("Error"), MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                ClearTextBoxes();
-                MessageBox.Show("Unesite korisnicko ime i lozinku za pristup sistemu!", "Neuspjesna prijava", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(rm.GetString("EnterData"), rm.GetString("FailedLogin"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
 
-        private void ClearTextBoxes()
-        {
-            tbUsername.Text = "";
-            tbPassword.Text = "";
-            tbUsername.ForeColor = Color.Gray;
-            tbPassword.ForeColor = Color.Gray;
+            ClearTextBoxes();
         }
 
         private void tbUsername_Click(object sender, EventArgs e)
         {
-            if ((tbUsername.Text.Equals("Korisnicko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
+            if ((tbUsername.Text.Equals("Korisničko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
                 ClearTextBoxes();
                 
         }
 
         private void tbPassword_Click(object sender, EventArgs e)
         {
-            if ((tbUsername.Text.Equals("Korisnicko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
+            if ((tbUsername.Text.Equals("Korisničko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
                 ClearTextBoxes();
         }
 
         private void pbPassword_MouseDown(object sender, MouseEventArgs e)
         {
-            if ((tbUsername.Text.Equals("Korisnicko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
+            if ((tbUsername.Text.Equals("Korisničko ime") || tbUsername.Text.Equals("Username")) && tbPassword.Text.Equals("xxxxxxxx"))
                 ClearTextBoxes();
             tbPassword.UseSystemPasswordChar = false;
         }
@@ -104,5 +112,33 @@ namespace TravelAgency.Forms
             new AboutBox().ShowDialog();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new NewLoginForm(new CultureInfo("sr"));
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form f = new NewLoginForm(new CultureInfo("en"));
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void ClearTextBoxes()
+        {
+            tbUsername.Text = "";
+            tbPassword.Text = "";
+            tbUsername.ForeColor = Color.Gray;
+            tbPassword.ForeColor = Color.Gray;
+        }
+
+        private void NewLoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

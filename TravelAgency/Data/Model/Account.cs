@@ -11,7 +11,6 @@ namespace TravelAgency.Data.Model
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        public bool IsAdministrator { get; set; }
         public Employee Employee { get; set; }
 
         public override bool Equals(object obj)

@@ -9,6 +9,9 @@ namespace TravelAgency.Data.DataAccess
 {
     public interface ITraveller
     {
-        List<Traveller> GetTravellers();
+        List<Traveller> GetTravellers(string filter);
+        void InsertTraveller(Traveller t);
+        void UpdateTraveller(Traveller t);
+        void DeleteTravellerById(int id);
     }
 }

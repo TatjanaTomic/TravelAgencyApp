@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TravelAgency.Forms;
@@ -17,9 +18,7 @@ namespace TravelAgency
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new NewLoginForm());
-            //Application.Run(new CommercialistForm());
-            Application.Run(new ManagerForm());
+            Application.Run(new NewLoginForm(new System.Globalization.CultureInfo("sr")));
         }
     }
 }

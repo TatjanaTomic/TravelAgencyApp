@@ -1,0 +1,168 @@
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe.config
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\TravelAgency.pdb
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csprojAssemblyReference.cache
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Properties.Resources.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.GenerateResource.cache
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.exe
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.pdb
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\MySql.Data.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Buffers.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Memory.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\Google.Protobuf.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\Zstandard.Net.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\Renci.SshNet.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\MySql.Data.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Buffers.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Memory.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CopyComplete
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.CommercialistForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.AboutBox.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Resources.Resource1.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ManagerForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TripForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravelForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.OfferForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravellerForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReservationForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.BusForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewReceiptForm.resources
+C:\Users\Tatjana Tomic\source\repos\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReceiptForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe.config
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.pdb
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySql.Data.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Buffers.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Memory.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Google.Protobuf.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Zstandard.Net.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Renci.SshNet.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySql.Data.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Buffers.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Memory.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csprojAssemblyReference.cache
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.AboutBox.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.BusForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.CommercialistForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ManagerForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewReceiptForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.OfferForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReceiptForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReservationForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravelForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravellerForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TripForm.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Properties.Resources.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Resources.Resource1.resources
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.GenerateResource.cache
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CopyComplete
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.exe
+C:\Users\Tatjana Tomic\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.pdb
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe.config
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.exe
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\TravelAgency.pdb
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySql.Data.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Buffers.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Memory.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Google.Protobuf.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Zstandard.Net.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\Renci.SshNet.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySql.Data.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\MySqlConnector.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Buffers.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Memory.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csprojAssemblyReference.cache
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.AboutBox.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.BusForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.CommercialistForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ManagerForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewReceiptForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.OfferForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReceiptForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReservationForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravelForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravellerForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TripForm.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Properties.Resources.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.GenerateResource.cache
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CoreCompileInputs.cache
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.csproj.CopyComplete
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.exe
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.pdb
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.CommercialistForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.CommercialistForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ManagerForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ManagerForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\en\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\sr\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\en\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\sr\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\bin\Debug\ff\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewLoginForm.ff.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\ff\TravelAgency.resources.dll
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.BusForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.BusForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewReceiptForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.NewReceiptForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.OfferForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.OfferForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReceiptForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReceiptForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReservationForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.ReservationForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravelForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravelForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravellerForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TravellerForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TripForm.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Forms.TripForm.sr.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Resources.Strings.en.resources
+C:\Users\EC\Desktop\1182_16-Tatjana_Tomic-Turisticka_agencija\TravelAgency\TravelAgency\obj\Debug\TravelAgency.Resources.Strings.sr.resources

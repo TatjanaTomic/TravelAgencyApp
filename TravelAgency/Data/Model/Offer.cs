@@ -27,7 +27,7 @@ namespace TravelAgency.Data.Model
 
         public override string ToString()
         {
-            return "Id " + Id + "Naziv " + Name + "Komercijalista " + Commercialist.FirstName + " " + Commercialist.LastName + " Cijena " + Price.TotalPrice;
+            return Name;
         }
     }
 }

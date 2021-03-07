@@ -77,27 +77,33 @@
     <Compile Include="Data\DataAccess\DataFactory.cs" />
     <Compile Include="Data\DataAccess\Exceptions\DataAccessExceptions.cs" />
     <Compile Include="Data\DataAccess\IAccount.cs" />
-    <Compile Include="Data\DataAccess\IAddress.cs" />
-    <Compile Include="Data\DataAccess\ICity.cs" />
-    <Compile Include="Data\DataAccess\IEmployee.cs" />
+    <Compile Include="Data\DataAccess\IBus.cs" />
     <Compile Include="Data\DataAccess\IOffer.cs" />
-    <Compile Include="Data\DataAccess\IOffice.cs" />
-    <Compile Include="Data\DataAccess\IPrice.cs" />
+    <Compile Include="Data\DataAccess\IReceipt.cs" />
+    <Compile Include="Data\DataAccess\IReservation.cs" />
     <Compile Include="Data\DataAccess\ITraveller.cs" />
     <Compile Include="Data\DataAccess\ITrip.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlAccount.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlBus.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlDataFactory.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlOffer.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlReceipt.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlReservation.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlTravel.cs" />
+    <Compile Include="Data\DataAccess\MySql\MySqlTraveller.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlTrip.cs" />
     <Compile Include="Data\DataAccess\MySql\MySqlUtil.cs" />
     <Compile Include="Data\DataAccess\ITravel.cs" />
     <Compile Include="Data\Model\Account.cs" />
     <Compile Include="Data\Model\Address.cs" />
+    <Compile Include="Data\Model\Bus.cs" />
     <Compile Include="Data\Model\City.cs" />
     <Compile Include="Data\Model\Employee.cs" />
     <Compile Include="Data\Model\Offer.cs" />
     <Compile Include="Data\Model\Office.cs" />
     <Compile Include="Data\Model\Price.cs" />
+    <Compile Include="Data\Model\Receipt.cs" />
+    <Compile Include="Data\Model\Reservation.cs" />
     <Compile Include="Data\Model\Travel.cs" />
     <Compile Include="Data\Model\Traveller.cs" />
     <Compile Include="Data\Model\Trip.cs" />
@@ -106,6 +112,12 @@
     </Compile>
     <Compile Include="Forms\AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BusForm.Designer.cs">
+      <DependentUpon>BusForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CommercialistForm.cs">
       <SubType>Form</SubType>
@@ -125,25 +137,155 @@
     <Compile Include="Forms\NewLoginForm.Designer.cs">
       <DependentUpon>NewLoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\NewReceiptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewReceiptForm.Designer.cs">
+      <DependentUpon>NewReceiptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OfferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OfferForm.Designer.cs">
+      <DependentUpon>OfferForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReceiptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReceiptForm.Designer.cs">
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ReservationForm.Designer.cs">
+      <DependentUpon>ReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TravelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TravelForm.Designer.cs">
+      <DependentUpon>TravelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TravellerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TravellerForm.Designer.cs">
+      <DependentUpon>TravellerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TripForm.Designer.cs">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Resource1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resource1.resx</DependentUpon>
-    </Compile>
     <Compile Include="Util\Common.cs" />
     <EmbeddedResource Include="Forms\AboutBox.resx">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BusForm.en.resx">
+      <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BusForm.resx">
+      <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BusForm.sr.resx">
+      <DependentUpon>BusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommercialistForm.en.resx">
+      <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CommercialistForm.resx">
       <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CommercialistForm.sr.resx">
+      <DependentUpon>CommercialistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagerForm.en.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ManagerForm.resx">
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManagerForm.sr.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLoginForm.en.resx">
+      <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLoginForm.ff.resx">
+      <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewLoginForm.resx">
       <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewLoginForm.sr.resx">
+      <DependentUpon>NewLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewReceiptForm.en.resx">
+      <DependentUpon>NewReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewReceiptForm.resx">
+      <DependentUpon>NewReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewReceiptForm.sr.resx">
+      <DependentUpon>NewReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OfferForm.en.resx">
+      <DependentUpon>OfferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OfferForm.resx">
+      <DependentUpon>OfferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OfferForm.sr.resx">
+      <DependentUpon>OfferForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReceiptForm.en.resx">
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReceiptForm.resx">
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReceiptForm.sr.resx">
+      <DependentUpon>ReceiptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReservationForm.en.resx">
+      <DependentUpon>ReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReservationForm.resx">
+      <DependentUpon>ReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ReservationForm.sr.resx">
+      <DependentUpon>ReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravelForm.en.resx">
+      <DependentUpon>TravelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravelForm.resx">
+      <DependentUpon>TravelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravelForm.sr.resx">
+      <DependentUpon>TravelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravellerForm.en.resx">
+      <DependentUpon>TravellerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravellerForm.resx">
+      <DependentUpon>TravellerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TravellerForm.sr.resx">
+      <DependentUpon>TravellerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TripForm.en.resx">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TripForm.resx">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TripForm.sr.resx">
+      <DependentUpon>TripForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -155,10 +297,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Resources\Resource1.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Strings.en.resx" />
+    <EmbeddedResource Include="Resources\Strings.sr.resx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -259,6 +399,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bus1.ico" />
+    <None Include="Resources\engleski.png" />
+    <None Include="Resources\srpski.jpg" />
+    <None Include="Resources\serbian.jpg" />
+    <None Include="Resources\english.jpg" />
+    <None Include="Resources\delete.jpg" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\close-512.png" />
+    <None Include="Resources\closeTransparent.png" />
+    <None Include="Resources\90-905672_x-cross-close-symbol-icon-button-gui-close.png" />
     <None Include="Resources\close %281%29.png" />
     <None Include="Resources\minimize.png" />
     <None Include="Resources\min.png" />

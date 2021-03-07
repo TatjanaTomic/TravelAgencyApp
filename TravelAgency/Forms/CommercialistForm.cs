@@ -7,49 +7,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Resources;
+using System.Threading;
+using System.Runtime.InteropServices;
 
 namespace TravelAgency.Forms
 {
     public partial class CommercialistForm : Form
     {
+        private Form activeForm;
+        private readonly Data.Model.Account currentUser;
+        private readonly CultureInfo culture;
         private static readonly Color lightPurple = Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(125)))), ((int)(((byte)(165)))));
         private static readonly Color darkPurple = Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(85)))), ((int)(((byte)(110)))));
         private static readonly Font regular = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
         private static readonly Font bold = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
-        
-        public CommercialistForm()
+
+        public CommercialistForm(Data.Model.Account currentUser, CultureInfo culture)
         {
+            this.currentUser = currentUser;
+            this.culture = culture;
+
+            setCulture();
             InitializeComponent();
+            SetUserInformation();
+
             btnAllOffers.BackColor = darkPurple;
             btnAllOffers.Font = bold;
-            FillGridOffers();
-            pnlOffers.Visible = true;
-            pnlTravels.Visible = false;
+            OpenChildForm(new OfferForm());
         }
 
-        void FillGridOffers()
+        void setCulture()
         {
-            dgvOffers.Rows.Clear();
-            var offers = Util.Common.DataFactory.Offers.GetOffers();
-            foreach (var o in offers)
+            Thread.CurrentThread.CurrentCulture = culture;
+            Thread.CurrentThread.CurrentUICulture = culture;
+        }
+
+        void SetUserInformation()
+        {
+            if (currentUser != null)
             {
-                DataGridViewRow row = new DataGridViewRow()
-                {
-                    Tag = o
-                };
-                row.CreateCells(dgvOffers, o.Id, o.Name, o.DateOfCreation, o.Commercialist.FirstName + " " + o.Commercialist.LastName, o.Price.TotalPrice);
-                dgvOffers.Rows.Add(row);
+                lbUser.Text = currentUser.Employee.FirstName + " " + currentUser.Employee.LastName;
             }
-        }
-
-        void FillGridTravels()
-        {
-
-        }
-
-        void FillGridTrips()
-        {
-
         }
 
         private void btnAllOffers_Click(object sender, EventArgs e)
@@ -58,10 +58,7 @@ namespace TravelAgency.Forms
             btnAllOffers.BackColor = darkPurple;
             btnAllOffers.Font = bold;
 
-            FillGridOffers();
-            pnlOffers.Visible = true;
-            pnlTravels.Visible = false;
-            //pnlTrips.Visible = false;
+            OpenChildForm(new OfferForm());
         }
 
         private void btnTravels_Click(object sender, EventArgs e)
@@ -70,10 +67,7 @@ namespace TravelAgency.Forms
             btnTravels.BackColor = darkPurple;
             btnTravels.Font = bold;
 
-            FillGridTravels();
-            pnlOffers.Visible = false;
-            pnlTravels.Visible = true;
-
+            OpenChildForm(new TravelForm(currentUser));
         }
 
         private void btnTrips_Click(object sender, EventArgs e)
@@ -82,8 +76,23 @@ namespace TravelAgency.Forms
             btnTrips.BackColor = darkPurple;
             btnTrips.Font = bold;
 
-            FillGridTrips();
-            //pnlOffers.Visible = false;
+            OpenChildForm(new TripForm(currentUser));
+        }
+
+        private void OpenChildForm(Form childForm)
+        {
+            if(activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(childForm);
+            this.panelDesktop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
 
         private void SetButtons()
@@ -94,6 +103,44 @@ namespace TravelAgency.Forms
             btnTravels.Font = regular;
             btnTrips.BackColor = lightPurple;
             btnTrips.Font = regular;
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState != FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+                this.WindowState = FormWindowState.Normal;
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void panelHome_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

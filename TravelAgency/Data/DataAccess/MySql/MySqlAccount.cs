@@ -12,9 +12,9 @@ namespace TravelAgency.Data.DataAccess.MySql
 {
     public class MySqlAccount : IAccount
     {
-        private static readonly string SELECT = @"SELECT nalog.Id, KorisnickoIme, Lozinka, JeAdministrator, 
+        private static readonly string SELECT = @"SELECT nalog.Id, KorisnickoIme, Lozinka, 
                                                   zaposleni.Id, Ime, Prezime, JMB, Zvanje, Plata 
-                                                  FROM nalog inner join zaposleni on nalog.Zaposleni= zaposleni.Id;";
+                                                  FROM nalog inner join zaposleni on nalog.Zaposleni=zaposleni.Id;";
 
         public List<Account> GetAccounts()
         {
@@ -36,15 +36,14 @@ namespace TravelAgency.Data.DataAccess.MySql
                         Id = reader.GetInt32(0),
                         Username = reader.GetString(1),
                         Password = reader.GetString(2),
-                        IsAdministrator = reader.GetBoolean(3),
                         Employee = new Employee()
                         {
-                            Id = reader.GetInt32(4),
-                            FirstName = reader.GetString(5),
-                            LastName = reader.GetString(6),
-                            Jmb = reader.GetString(7),
-                            Education = reader.GetString(8),
-                            Salary = reader.GetDecimal(9)
+                            Id = reader.GetInt32(3),
+                            FirstName = reader.GetString(4),
+                            LastName = reader.GetString(5),
+                            Jmb = reader.GetString(6),
+                            Education = reader.GetString(7),
+                            Salary = reader.GetDecimal(8)
                         }
                     }) ;
                 }
@@ -103,6 +102,17 @@ namespace TravelAgency.Data.DataAccess.MySql
                     return a.Employee.Id;
             }
             return -1;
+        }
+
+        public Account GetAccountByUsername(string username)
+        {
+            List<Account> accounts = GetAccounts();
+            foreach (var a in accounts)
+            {
+                if (a.Username.Equals(username))
+                    return a;
+            }
+            return null;
         }
     }
 }

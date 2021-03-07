@@ -11,5 +11,6 @@ namespace TravelAgency.Data.DataAccess
     {
         List<Account> GetAccounts();
         string CheckAccount(string username, string password);
+        Account GetAccountByUsername(string username);
     }
 }
